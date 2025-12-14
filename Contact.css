@@ -1,0 +1,188 @@
+.background-header {
+            background-color: #000F8F;
+            padding: 15px 0; 
+            color: white;
+        }
+
+        /* Logo responsive */
+        .logo-img {
+            max-height: 50px; /* Giới hạn chiều cao logo */
+            width: auto;
+        }
+
+        /* Icon trong header */
+        .header-icon-link {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+            text-decoration: none;
+            font-size: 0.8rem;
+            transition: color 0.3s;
+        }
+
+        .header-icon-link:hover {
+            color: orange;
+        }
+
+        .header-icon-link svg {
+            margin-bottom: 5px;
+        }
+
+        /* Sub-nav (Active/Link...) */
+        .introduce_header {
+            background-color: whitesmoke;
+            border-bottom: 1px solid #ddd;
+        }
+
+      
+
+        /* Banner Solutions */
+        .banner_header {
+            background-color: whitesmoke;
+            border: 2px solid orange;
+            border-radius: 25px;
+            padding: 20px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .solution-item {
+            padding: 10px;
+        }
+
+        .solution-img {
+            width: 100%;       /* Ảnh co giãn theo cột */
+            height: auto;
+            border: 2px solid orange;
+            border-radius: 15px;
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+
+        .solution-img:hover {
+            transform: translateY(-10px);
+        }
+
+        .search-container {
+            position: relative;
+        }
+
+        /* Các biến màu tùy chỉnh */
+
+
+/* --- Thiết lập chung cho khối thông tin --- */
+.store-info-box {
+    background-color: gray-light;
+    border: 2px solid orange;
+    border-radius: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Màu xanh tùy chỉnh cho tiêu đề và liên kết */
+.text-primary-custom {
+    color: #000F8F
+}
+
+/* Tiêu đề cửa hàng */
+.store-title {
+    color: #000F8F;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+}
+
+/* --- Chi tiết Thông tin Cửa hàng --- */
+
+/* Wrapper chung cho icon và nội dung */
+.info-item {
+    padding-right: 15px;
+    /* Loại bỏ border nếu dùng cho info-group > row. Nếu không, hãy dùng border-bottom */
+}
+
+/* Icon màu xanh */
+.icon-blue {
+    color: var(--blue-custom); 
+    font-size: 1.5rem; 
+    flex-shrink: 0; /* Đảm bảo icon không bị co lại */
+}
+
+/* Nhãn (label) và Giá trị (value) */
+.info-label {
+    color: #333;
+    font-size: 0.95em;
+}
+
+.info-value {
+    color: #555;
+    font-size: 0.95em;
+}
+
+/* Lưu ý cuối */
+.note {
+    background-color: #fce4ec; /* Màu hồng nhạt, thay cho màu vàng cam nếu thích */
+    color: #e91e63; /* Màu chữ đậm */
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    margin-top: 20px;
+}
+
+
+/* --- Phần Bản đồ --- */
+
+.google-map-column {
+    /* Đảm bảo khoảng cách giữa 2 cột trên desktop */
+    padding-left: 20px;
+}
+
+.bottom {
+    background-color: wheat; /* Nền trắng */
+    padding: 30px 0; /* Khoảng cách trên và dưới */
+    border-top: 1px solid orange; /* Đường kẻ mờ phía trên (tùy chọn) */
+}
+
+/* Đảm bảo nội dung footer không căn giữa mà căn trái trên Desktop */
+.bottom .container {
+    text-align: left; /* Căn trái toàn bộ nội dung trong container */
+}
+
+/* Các tiêu đề lớn (CHÍNH SÁCH, HỖ TRỢ,...) */
+.footer-heading {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000F8F; /* Màu xanh đậm */
+    margin-bottom: 20px;
+    text-align: left;
+    
+}
+
+/* Danh sách các liên kết */
+.footer-list {
+    list-style: none; /* Bỏ dấu chấm đầu dòng */
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.footer-list li {
+    margin-bottom: 8px; /* Khoảng cách giữa các liên kết */
+}
+
+.footer-list a {
+    color: #333; /* Màu chữ mặc định là xám đậm */
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2s ease;
+}
+
+.footer-list a:hover {
+    color: #000F8F; /* Đổi màu khi di chuột */
+    text-decoration: underline;
+}
+
+.footer-background {
+    background-color:black; /* Màu nền xanh đậm */
+    height: auto; /* Chiều cao của footer */
+    width: 100%;
+}

@@ -1,0 +1,96 @@
+.background-header {
+            background-color: #000F8F;
+            padding: 15px 0; 
+            color: white;
+        }
+
+        /* Logo responsive */
+        .logo-img {
+            max-height: 50px; /* Giới hạn chiều cao logo */
+            width: auto;
+        }
+
+        /* Icon trong header */
+        .header-icon-link {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+            text-decoration: none;
+            font-size: 0.8rem;
+            transition: color 0.3s;
+        }
+
+        .header-icon-link:hover {
+            color: orange;
+        }
+
+        .header-icon-link svg {
+            margin-bottom: 5px;
+        }
+
+        /* Sub-nav (Active/Link...) */
+        .introduce_header {
+            background-color: whitesmoke;
+            border-bottom: 1px solid #ddd;
+        }
+         .banner_header {
+            background-color: whitesmoke;
+            border: 2px solid orange;
+            border-radius: 25px;
+            padding: 20px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+
+        .bottom {
+    background-color: wheat; /* Nền trắng */
+    padding: 30px 0; /* Khoảng cách trên và dưới */
+    border-top: 1px solid orange; /* Đường kẻ mờ phía trên (tùy chọn) */
+}
+
+/* Đảm bảo nội dung footer không căn giữa mà căn trái trên Desktop */
+.bottom .container {
+    text-align: left; /* Căn trái toàn bộ nội dung trong container */
+}
+
+/* Các tiêu đề lớn (CHÍNH SÁCH, HỖ TRỢ,...) */
+.footer-heading {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000F8F; /* Màu xanh đậm */
+    margin-bottom: 20px;
+    text-align: left;
+    
+}
+
+/* Danh sách các liên kết */
+.footer-list {
+    list-style: none; /* Bỏ dấu chấm đầu dòng */
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.footer-list li {
+    margin-bottom: 8px; /* Khoảng cách giữa các liên kết */
+}
+
+.footer-list a {
+    color: #333; /* Màu chữ mặc định là xám đậm */
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2s ease;
+}
+
+.footer-list a:hover {
+    color: #000F8F; /* Đổi màu khi di chuột */
+    text-decoration: underline;
+}
+
+.footer-background {
+    background-color:black; /* Màu nền xanh đậm */
+    height: auto; /* Chiều cao của footer */
+    width: 100%;
+}

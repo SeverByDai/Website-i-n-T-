@@ -1,0 +1,106 @@
+.background-header {
+            background-color: #000F8F;
+            padding: 15px 0; 
+            color: white;
+        }
+
+        /* Logo responsive */
+        .logo-img {
+            max-height: 50px; /* Giới hạn chiều cao logo */
+            width: auto;
+        }
+
+        /* Icon trong header */
+        .header-icon-link {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+            text-decoration: none;
+            font-size: 0.8rem;
+            transition: color 0.3s;
+        }
+
+        .header-icon-link:hover {
+            color: orange;
+        }
+
+        .header-icon-link svg {
+            margin-bottom: 5px;
+        }
+
+        /* Sub-nav (Active/Link...) */
+        .introduce_header {
+            background-color: whitesmoke;
+            border-bottom: 1px solid #ddd;
+        }
+         .banner_header {
+            background-color: whitesmoke;
+            border: 2px solid orange;
+            border-radius: 25px;
+            padding: 20px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+         body{
+            background: url('https://img.freepik.com/premium-vector/geometric-gradient-technology-background_23-2149110132.jpg?semt=ais_hybrid&w=740&q=80') no-repeat center/cover;
+            backdrop-filter: blur(3px);
+            min-height: 100vh;
+        }
+
+        /* Card trong suốt */
+        .glass-box{
+            background: rgba(255,255,255,0.12);
+            border-radius: 20px;
+            padding: 40px;
+            border: 1px solid rgba(255,255,255,0.25);
+            backdrop-filter: blur(12px);
+            animation: fadeIn 1s ease;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.35);
+        }
+
+        /* Hiệu ứng fade */
+        @keyframes fadeIn {
+            from {opacity: 0; transform: translateY(30px);}
+            to   {opacity: 1; transform: translateY(0);}
+        }
+
+        /* Nút gradient */
+        .btn-gradient{
+            background: linear-gradient(135deg, #00c6ff, #0072ff);
+            border: none;
+            color: white;
+            font-weight: bold;
+            padding: 12px;
+            border-radius: 12px;
+            transition: 0.3s;
+        }
+        .btn-gradient:hover{
+            transform: scale(1.04);
+            opacity: .9;
+        }
+
+        /* Input đẹp */
+        .form-control{
+            background: rgba(255,255,255,0.18);
+            color: white;
+            border: 1px solid rgba(255,255,255,0.3);
+        }
+        .form-control:focus{
+            background: rgba(255,255,255,0.25);
+            color: white;
+            box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.2);
+        }
+
+        label{
+            color: white;
+        }
+
+        .login-image{
+            border-radius: 20px;
+            overflow: hidden;
+            animation: fadeIn 1s ease;
+        }
+
+        
